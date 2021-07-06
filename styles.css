@@ -16,10 +16,7 @@ header {
 
 Elephant - use the * selector to somehow target parent elements. */
 
-.margin {
-    margin-left: 3em;
-    margin-top: 5rem;
-}
+
 
 
 
@@ -47,6 +44,8 @@ Elephant - use the * selector to somehow target parent elements. */
     background: purple;
     order: 2;
 }
+
+
 
 header {
     background-image: url("Images/SnowFir.jpg");
