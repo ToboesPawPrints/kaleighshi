@@ -21,6 +21,8 @@ Elephant - use the * selector to somehow target parent elements. */
     margin-top: 5rem;
 }
 
+
+
 #main {
      display: flex;
      flex: 1;
@@ -46,7 +48,13 @@ Elephant - use the * selector to somehow target parent elements. */
     order: 2;
 }
 
-header, footer {
+header {
+    background-image: url("Images/SnowFir.jpg");
+    opacity: 20%;
+    color: white;
+    height: 20vh;
+}
+footer {
     background: #116466;
     color: white;
     height: 20vh;
