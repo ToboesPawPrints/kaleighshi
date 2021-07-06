@@ -48,10 +48,14 @@ Elephant - use the * selector to somehow target parent elements. */
 
 
 header {
-    background-image: url("Images/SnowFir.jpg");
-    opacity: 20%;
+    background-image: url("Images/SnowFirOverlay.jpg");
+    position: relative;
     color: white;
     height: 20vh;
+}
+
+.margin-test{
+    background: red;
 }
 footer {
     background: #116466;
