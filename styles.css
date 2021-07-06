@@ -5,6 +5,18 @@ body {
     margin: 0;
 }
 
+
+
 header {
-    background-image: url("Images/SnowFir.jpg")
+    background-image: url("Images/SnowFir.jpg");
+    opacity: 100%;
+    color: white;
+}
+
+/* Elephant - use the * selector to somehow target parent elements. */
+
+
+
+.margin {
+    margin: 100px;
 }
