@@ -1,3 +1,6 @@
+* { box-sizing: border-box;
+}
+
 body {
     display: flex;
     min-height: 100vh;
@@ -6,12 +9,12 @@ body {
 }
 
 
-
+/*
 header {
     background-image: url("Images/SnowFir.jpg");
 }
 
-/* Elephant - use the * selector to somehow target parent elements. */
+Elephant - use the * selector to somehow target parent elements. */
 
 .margin {
     margin-left: 3em;
@@ -36,6 +39,11 @@ header {
 #main > nav {
     background: blue;
     order: 3;
+}
+
+#main > aside {
+    background: purple;
+    order: 2;
 }
 
 header, footer {
