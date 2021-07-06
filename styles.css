@@ -45,7 +45,10 @@ Elephant - use the * selector to somehow target parent elements. */
     order: 2;
 }
 
-
+#welcome-styles {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 header {
     background-image: url("Images/SnowFirOverlay.jpg");
@@ -54,9 +57,7 @@ header {
     height: 20vh;
 }
 
-.margin-test{
-    background: red;
-}
+
 footer {
     background: #116466;
     color: white;
