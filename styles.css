@@ -9,14 +9,41 @@ body {
 
 header {
     background-image: url("Images/SnowFir.jpg");
-    opacity: 100%;
-    color: white;
 }
 
 /* Elephant - use the * selector to somehow target parent elements. */
 
-
-
 .margin {
-    margin: 100px;
+    margin-left: 3em;
+    margin-top: 5rem;
+}
+
+#main {
+     display: flex;
+     flex: 1;
+}
+
+#main > article {
+    flex: 1;
+    order: 1;
+}
+
+#main > nav,
+#main > aside {
+    flex: 0 0 20vw;
+}
+
+#main > nav {
+    background: blue;
+    order: 3;
+}
+
+header, footer {
+    background: #116466;
+    color: white;
+    height: 20vh;
+}
+
+header, footer, article, nav, aside {
+    padding: 1em;
 }
