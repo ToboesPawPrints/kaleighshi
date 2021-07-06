@@ -9,6 +9,11 @@ body {
 }
 
 
+h1 {
+    font-family: 'IM Fell English SC', Verdana;
+    margin: 1px;
+}
+
 /*
 header {
     background-image: url("Images/SnowFir.jpg");
@@ -46,8 +51,9 @@ Elephant - use the * selector to somehow target parent elements. */
 }
 
 #welcome-styles {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: verdana;
 }
 
 header {
