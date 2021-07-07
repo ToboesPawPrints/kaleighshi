@@ -52,9 +52,11 @@ Elephant - use the * selector to somehow target parent elements. */
 
 #welcome-styles {
     margin-top: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 1px;
     font-family: verdana;
 }
+
+
 
 header {
     background-image: url("Images/SnowFirOverlay.jpg");
