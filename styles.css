@@ -63,6 +63,9 @@ header {
     height: 20vh;
 }
 
+.white-bg-header {
+    color: #2C3531;
+}
 
 footer {
     background: #116466;
