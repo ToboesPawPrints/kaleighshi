@@ -56,8 +56,6 @@ Elephant - use the * selector to somehow target parent elements. */
     font-family: verdana;
 }
 
-
-
 header {
     background-image: url("Images/SnowFirOverlay.jpg");
     position: relative;
