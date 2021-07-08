@@ -3,6 +3,7 @@
 
 body {
     display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     min-height: 100vh;
     flex-direction: column;
     margin: 0;
@@ -12,6 +13,10 @@ body {
 h1 {
     font-family: 'IM Fell English SC', Verdana;
     margin: 1px;
+}
+
+#hello-inline {
+    display: inline-block;
 }
 
 /*
